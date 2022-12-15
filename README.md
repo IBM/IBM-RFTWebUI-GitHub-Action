@@ -1,2 +1,2 @@
-# IBMDevOpsAuto-UITest-GitHub-Action
-This is a gitHub Action workflow for UITest
+# devopsauto-testserver-actions
+This is a gitHub Action workflow for IBM DevOps Automation UITest
