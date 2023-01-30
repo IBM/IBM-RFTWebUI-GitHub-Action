@@ -1,0 +1,35 @@
+name: Rational Functional Tester - UI Test
+
+on: workflow_dispatch
+
+jobs:
+    WebUI-Action:
+        runs-on: self-hosted
+        name: Rational Functional Tester - UI Test
+        steps:
+         - name: Rational Functional Tester - UI Test
+           uses: IBM/IBM-RFTWebUI-GitHub-Action@main
+           with:
+            workspace: 
+            project: 
+            suite: 
+            imshared:
+            configFile: 
+            exportLog: 
+            exportReport: 
+            exportStatReportList: 
+            exportStats: 
+            exportStatsFormat: 
+            exportStatsHtml: 
+            imports:
+            labels: 
+            overwrite: 
+            protocolInput: 
+            publish: 
+            publishFor: 
+            publishReports: 
+            results:
+            swapDatasets: 
+            userComments: 
+            varFile: 
+            vmArgs: 
